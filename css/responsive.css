@@ -1,7 +1,27 @@
-/* Cambio la width in max-width del container */
+/* Tablet */
+
 
 @media screen and (max-width: 768px) {
+
+    /* Cambio la width in max-width del container */
     .container {
         max-width: 100%;
+    }
+}
+
+/* Phone */
+
+@media screen and (max-width: 576px) {
+
+    /* Metto gli elementi in verticale */
+    .row {
+        max-width: 500px;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    /* Adatto i contenuti delle colonne */
+    .col {
+        flex-basis: 100%;
     }
 }
