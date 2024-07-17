@@ -12,10 +12,13 @@
 /* Phone */
 
 @media screen and (max-width: 576px) {
+    .container {
+        max-width: 350px;
+    }
+
 
     /* Metto gli elementi in verticale */
     .row {
-        max-width: 500px;
         flex-wrap: wrap;
         gap: 70px;
     }
@@ -24,4 +27,17 @@
     .col {
         flex-basis: 100%;
     }
+
+    /* Cambio colore alla sezione "Why-us" */
+
+    .why-us {
+        padding: 3rem 0;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
 }
