@@ -1,0 +1,7 @@
+/* Cambio la width in max-width del container */
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
