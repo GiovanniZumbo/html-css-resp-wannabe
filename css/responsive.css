@@ -1,30 +1,14 @@
-/* Bonus */
-
-@media screen and (max-width: 1160px) {
-    .container {
-        max-width: 100%;
-    }
+.container {
+    width: 100%;
+    max-width: 1140px;
 }
 
-
-/* Tablet */
-
-
-@media screen and (max-width: 768px) {
-
-    /* Cambio la width in max-width del container */
-    .container {
-        max-width: 100%;
-    }
-}
-
-/* Phone */
+/* Mobile */
 
 @media screen and (max-width: 576px) {
     .container {
         max-width: 350px;
     }
-
 
     /* Metto gli elementi in verticale */
     .row {
@@ -41,12 +25,12 @@
 
     .why-us {
         padding: 3rem 0;
-        margin-bottom: 0;
         background-color: #222222;
     }
 
-    .steps {
+    /* Tolgo il margine blu */
+
+    section:not(:first-child) {
         margin-bottom: 0;
     }
-
 }
